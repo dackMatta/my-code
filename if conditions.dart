@@ -2,7 +2,7 @@ void main() {
   // a list stores multiple values without creating multiple variables
 
   var students = ["sasha", "james", "paul"];
-  print('students names are $students');
+  print('students names are ${students[0]}');
 
   // a map can take multiple data types
   // below the map variable takes more than two data types
@@ -25,5 +25,6 @@ void main() {
     'is teacher': true,
   };
   //to get bob's age we print the following prompt
-  print('Bob\'s age is ${teachers['bob']}');
+  print('Bob\'s age is ${teachers['alice']}');
+  print('he is a teacher ');
 }

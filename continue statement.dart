@@ -1,6 +1,6 @@
 // continue statement in a do while loop
 void main() {
-  int k = 0;
+  int k = 1;
   do {
     k++;
     if (k == 9) {

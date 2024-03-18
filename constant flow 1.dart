@@ -1,14 +1,14 @@
 void main() {
   //not equal to
-  const doesOneEqualTwo = (1 != 2);
+  const doesOneEqualTwo = (2 != 4);
   print(doesOneEqualTwo);
 //equal to
-  const doesTwoEqualFive = (2 == 2);
+  const doesTwoEqualFive = (3 == 2);
   print(doesTwoEqualFive);
 //greater than or equal to
-  const isGreater = (10 >= 10);
+  const isGreater = (1 >= 10);
   print(isGreater);
 //less than or equal to
-  const isLess = (15 <= 15);
+  const isLess = (17 <= 15);
   print(isLess);
 }

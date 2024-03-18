@@ -4,6 +4,10 @@ int addTwo(int a, int b) {
   return a + b;
 }
 
+int mulTwo(int c, int d) {
+  return c * d;
+}
+
 void main() {
   int num1 = 23;
   int num2 = 47;

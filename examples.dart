@@ -13,6 +13,8 @@ void main() {
     case 4:
       print('gaddamitt');
       break;
+    case 5:
+      print('my bad u a $i');
     default:
       print('out of range');
       break;

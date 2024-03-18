@@ -10,13 +10,13 @@ class Person {
   // Method to display information
   void displayInfo() {
     print(
-        'my name is  $name, i am $age years old, i like $hobbies, and i am currently studing at $school');
+        'my name is  $name i am $age years old, my current hobby is  $hobbies and i am currently sharpening my skills at $school');
   }
 }
 
 void main() {
   var personObject =
-      Person('Entrix Makambi', 23, 'coding', 'Power Learn Project');
+      Person('Entrix Makambi', 23, 'coding ', 'Power Learn Project');
 
   personObject.displayInfo();
 }

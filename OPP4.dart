@@ -16,5 +16,4 @@ void main() {
   var honda = car('hondaCV', 7000, 'Xseries', 280.5);
   var ferari = car('ferariOutta', 100000, 'WXB', 355.55);
   honda.howMuch();
-  ferari.howMuch();
 }
